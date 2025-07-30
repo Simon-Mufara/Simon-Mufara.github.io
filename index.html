@@ -3,103 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simon Mufara | Bioinformatician</title>
+  <title>Simon Mufara | Bioinformatician & Researcher</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
+    body { font-family: 'Poppins', sans-serif; margin: 0; background: #f9fafc; color: #222; }
     header {
-      background-color: #003366;
+      background: linear-gradient(90deg, #003366, #005b96);
       color: white;
-      padding: 2rem;
+      padding: 3rem 2rem;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
+    header h1 { font-size: 2.5rem; margin: 0; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
     nav {
-      background-color: #005b96;
+      background: #002b4c;
       text-align: center;
-      padding: 0.5rem 0;
+      padding: 1rem 0;
     }
     nav a {
       color: white;
       margin: 0 1rem;
       text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
     }
+    nav a:hover { color: #ffa726; }
     .container {
-      max-width: 1000px;
+      max-width: 960px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
     section {
       margin-bottom: 3rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     }
+    section h2 {
+      border-left: 5px solid #005b96;
+      padding-left: 10px;
+      margin-bottom: 1rem;
+    }
+    ul li { margin-bottom: 0.8rem; line-height: 1.6; }
     footer {
-      background-color: #003366;
+      background: #003366;
       color: white;
       text-align: center;
-      padding: 1rem 0;
+      padding: 1.5rem 0;
+      font-size: 0.95rem;
     }
-    .button {
-      background-color: #005b96;
+    a.button {
+      display: inline-block;
+      background: #005b96;
       color: white;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.button:hover { background: #003f70; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      nav a { display: block; margin: 0.5rem 0; }
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Simon Azwinndini Mufara</h1>
-    <p>Bioinformatician | UCT Honours | GradStar Top 10</p>
+    <p>Bioinformatics Honours | Public Health Researcher | GradStar Top 10</p>
   </header>
-
   <nav>
-    <a href="#about">About Me</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Projects</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
-
   <div class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m Simon, an Honours student in Bioinformatics at the University of Cape Town, with a foundation in Health Systems Sciences from Wits University. I’m passionate about using data science and computational tools to tackle African healthcare challenges — especially in genomics, cancer research, and digital health. I’m also one of South Africa’s Top 10 GradStar finalists for 2024.</p>
+      <p>I’m Simon Mufara, a bioinformatics Honours student at the University of Cape Town with a deep passion for healthcare innovation, precision medicine, and African public health. With over two years of hands-on experience in public health research, variant calling, and community engagement, I aim to use data to transform lives across the continent.</p>
     </section>
-
-    <section id="services">
-      <h2>What I Offer</h2>
+    <section id="skills">
+      <h2>Skills</h2>
       <ul>
-        <li><strong>CV & Cover Letter Services:</strong> R100 (edit), R150 (new), R50 (cover letter)</li>
-        <li><strong>LinkedIn Setup:</strong> R100 — full profile refresh & optimization</li>
-        <li><strong>Bioinformatics Help:</strong> From variant calling to data visualization</li>
-        <li><strong>Student Mentorship:</strong> UCT & Wits students welcome</li>
+        <li><strong>Technical:</strong> Python, R, Linux/WSL, Galaxy, BWA, SAMtools, bcftools, GATK, Data Visualization</li>
+        <li><strong>Tools:</strong> EndNote, Excel, GitHub, REDCap</li>
+        <li><strong>Professional:</strong> Communication, Literature Curation, Scientific Writing, Team Collaboration</li>
       </ul>
     </section>
-
-    <section id="portfolio">
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Bioinformatics Researcher – UCT:</strong> Developing transformer-based multi-omics model to predict drug response in South African breast cancer patients</li>
+        <li><strong>Global Health Equity Intern – Johnson & Johnson:</strong> Led DEI programs, curated market strategies for HIV/TB therapeutics, supported global outreach</li>
+        <li><strong>Intern – Reach For A Dream:</strong> Coordinated oncology & nephrology interventions, managed REDCap records, and delivered psychosocial support</li>
+        <li><strong>Variant Caller – H3D UCT:</strong> SNP/INDEL calling for 5 M. tuberculosis datasets using BWA, SAMtools, bcftools</li>
+        <li><strong>Facilitator – EH!Woza:</strong> Led health education sessions for township youth on HIV/TB awareness</li>
+      </ul>
+    </section>
+    <section id="projects">
       <h2>Projects & Achievements</h2>
       <ul>
-        <li>💡 <strong>Drug Response Prediction Model:</strong> using multi-omics breast cancer data</li>
-        <li>🧬 <strong>Whole-Genome Variant Calling:</strong> <em>Mycobacterium tuberculosis</em> isolates</li>
-        <li>🧠 <strong>GradStar Top 10 Finalist:</strong> Recognized among SA’s brightest students</li>
-        <li>📊 <strong>Dashboard Design:</strong> Healthcare data dashboards (SQL, Excel, Looker Studio)</li>
+        <li>🏆 Top 10 GradStar Winner (2024) – South Africa’s Most Employable Graduates</li>
+        <li>🧬 NGS Pipeline Development – TB genomics variant calling (GitHub project)</li>
+        <li>📊 Data Dashboards – Created strategic HIV/TB visualizations for J&J international meetings</li>
+        <li>📚 Curated 30+ references with EndNote for medical publications</li>
+        <li>🌍 Founded "Generation NOW SA" – DEI platform for 500+ professionals across EMEA</li>
       </ul>
     </section>
-
     <section id="contact">
-      <h2>Let’s Connect</h2>
-      <p>Email: <a href="mailto:kaykayxsimon@gmail.com">kaykayxsimon@gmail.com</a></p>
-      <p>WhatsApp: <a href="https://wa.me/27620552382">062 055 2382</a></p>
-      <button class="button" onclick="window.location.href='mailto:kaykayxsimon@gmail.com'">Email Me</button>
+      <h2>Contact</h2>
+      <p><strong>📍 Location:</strong> Cape Town, South Africa</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:simon.mufara1@gmail.com">simon.mufara1@gmail.com</a></p>
+      <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/27792551053">+27 79 255 1053</a></p>
+      <p><strong>🔗 Online:</strong> 
+        <a href="https://www.linkedin.com/in/simon-mufara" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Simon-Mufara" target="_blank">GitHub</a> |
+        <a href="https://www.researchgate.net/profile/Azwinndini-Simon-Mufara" target="_blank">ResearchGate</a>
+      </p>
+      <a class="button" href="/mnt/data/Simon Mufara June CV 2025.pdf" download>Download My CV</a>
     </section>
   </div>
-
   <footer>
-    <p>© 2025 Simon Mufara. All Rights Reserved.</p>
+    <p>&copy; 2025 Simon Mufara | Built with passion & purpose.</p>
   </footer>
 </body>
 </html>
