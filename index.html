@@ -66,6 +66,25 @@
       transition: background 0.3s ease;
     }
     a.button:hover { background: #003f70; }
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    iframe.article {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 1rem;
+    }
     @media (max-width: 600px) {
       header h1 { font-size: 2rem; }
       nav a { display: block; margin: 0.5rem 0; }
@@ -82,6 +101,8 @@
     <a href="#skills">Skills</a>
     <a href="#experience">Experience</a>
     <a href="#projects">Projects</a>
+    <a href="#media">Media</a>
+    <a href="#articles">Articles</a>
     <a href="#contact">Contact</a>
   </nav>
   <div class="container">
@@ -116,6 +137,19 @@
         <li>📚 Curated 30+ references with EndNote for medical publications</li>
         <li>🌍 Founded "Generation NOW SA" – DEI platform for 500+ professionals across EMEA</li>
       </ul>
+    </section>
+    <section id="media">
+      <h2>Media & Gallery</h2>
+      <div class="gallery">
+        <img src="your-profile-photo.jpg" alt="Simon Mufara">
+        <img src="project-screenshot-1.jpg" alt="Project Screenshot">
+        <img src="conference-poster.jpg" alt="Conference Poster">
+      </div>
+    </section>
+    <section id="articles">
+      <h2>Research Articles</h2>
+      <p>Browse my published work and preprints below:</p>
+      <iframe class="article" src="https://www.researchgate.net/profile/Azwinndini-Simon-Mufara"></iframe>
     </section>
     <section id="contact">
       <h2>Contact</h2>
