@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Mufara | Bioinformatician</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #005b96;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    .button {
+      background-color: #005b96;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simon Azwinndini Mufara</h1>
+    <p>Bioinformatician | UCT Honours | GradStar Top 10</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Simon, an Honours student in Bioinformatics at the University of Cape Town, with a foundation in Health Systems Sciences from Wits University. I’m passionate about using data science and computational tools to tackle African healthcare challenges — especially in genomics, cancer research, and digital health. I’m also one of South Africa’s Top 10 GradStar finalists for 2024.</p>
+    </section>
+
+    <section id="services">
+      <h2>What I Offer</h2>
+      <ul>
+        <li><strong>CV & Cover Letter Services:</strong> R100 (edit), R150 (new), R50 (cover letter)</li>
+        <li><strong>LinkedIn Setup:</strong> R100 — full profile refresh & optimization</li>
+        <li><strong>Bioinformatics Help:</strong> From variant calling to data visualization</li>
+        <li><strong>Student Mentorship:</strong> UCT & Wits students welcome</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Projects & Achievements</h2>
+      <ul>
+        <li>💡 <strong>Drug Response Prediction Model:</strong> using multi-omics breast cancer data</li>
+        <li>🧬 <strong>Whole-Genome Variant Calling:</strong> <em>Mycobacterium tuberculosis</em> isolates</li>
+        <li>🧠 <strong>GradStar Top 10 Finalist:</strong> Recognized among SA’s brightest students</li>
+        <li>📊 <strong>Dashboard Design:</strong> Healthcare data dashboards (SQL, Excel, Looker Studio)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Let’s Connect</h2>
+      <p>Email: <a href="mailto:kaykayxsimon@gmail.com">kaykayxsimon@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/27620552382">062 055 2382</a></p>
+      <button class="button" onclick="window.location.href='mailto:kaykayxsimon@gmail.com'">Email Me</button>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Simon Mufara. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
